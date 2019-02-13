@@ -6,11 +6,11 @@
 trigger:
 - master
 
-pool: Default
+pool: Shreyas
 
 steps:
 - script: npm install
   displayName: 'npm install'
 
-- script: npm run test **/*.js
+- script: npm run test
   displayName: 'npm test'
